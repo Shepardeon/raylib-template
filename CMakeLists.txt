@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.24..3.30)
 project(Game VERSION 1.0.0 LANGUAGES C CXX)
 
+# Set wether it's a debug or release build
+set(CMAKE_BUILD_TYPE Debug)
+
 include(FetchContent)
 
 # Generate compile_command.json
